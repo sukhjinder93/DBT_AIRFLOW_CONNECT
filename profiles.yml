@@ -1,0 +1,12 @@
+Top_Article: # this needs to match the profile in your dbt_project.yml file
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: tegna.us-east-1
+      password: rxXRAkheQqHVKMOsm0
+      user: SUKHJINDER_SINGH
+      role: TEGNA_ADMIN
+      warehouse: LOAD_WH
+      database: OPE_RAW_DATA
+      schema: CONTENT_ANALYTICS.TOP_ARTICLE
