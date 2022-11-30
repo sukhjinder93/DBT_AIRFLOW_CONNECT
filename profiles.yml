@@ -5,8 +5,8 @@ Top_Article:
       database: OPE_RAW_DATA
       password: rxXRAkheQqHVKMOsm0
       role: TEGNA_ADMIN
-      schema: CONTENT_ANALYTICS.TOP_ART
-      threads: 1
+      schema: CONTENT_ANALYTICS
+      threads: 4
       type: snowflake
       user: SUKHJINDER_SINGH
       warehouse: LOAD_WH
