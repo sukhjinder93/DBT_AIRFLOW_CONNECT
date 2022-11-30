@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: snowflake_top_articles
+    description: "Top Articles"
+    database: OPE_RAW_DATA
+    schema: CONTENT_ANALYTICS
+    tables:
+      - name: TOP_ART
+        description: "details about the top articles"
+
+  - name: test_ref_articles
+    description: "A starter dbt model"
